@@ -1,0 +1,454 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Jordan Zoom Separate PF",
+      "price": 3239000,
+      "detail": "Cú sút lùi của Luka là nàng thơ cho Jordan Zoom Separate PF, một đôi giày đế thấp nhẹ được thiết kế để giúp bạn kiểm soát trên sân. nghiêng người trong khi xoay người và thay đổi hướng. Bộ phận Zoom Air cung cấp đệm đáp ứng khi bạn nhắm vào rổ. Phiên bản PF này sử dụng đế ngoài siêu bền, lý tưởng cho các sân ngoài trời.",
+      "image": "/images/bk-1.jfif",
+      "review": "",
+      "cate_id": 3,
+      "noiBat": 1,
+      "anHien": 0,
+      "giamgia": 10,
+      "luotXem": 0,
+      "hot": 1,
+      "hot": 1,
+      "date": "2022-02-15 20:47:20"
+    },
+    {
+      "id": 2,
+      "name": "LeBron 19",
+      "price": 5869000,
+      "detail": "LeBron phát triển mạnh khi tiền đặt cọc cao và áp lực lớn. LeBron 19 khai thác năng lượng đó bằng một bộ quần áo có khóa và hệ thống đệm cập nhật. Các miếng đệm ở lưỡi gà và xung quanh cổ giày giúp giảm trọng lượng, giữ cho mắt cá chân thẳng hàng và mang lại cho người chơi cảm giác an toàn và tự tin thi đấu hết mình khi trận đấu đang diễn ra.",
+      "image": "/images/bk-2.jfif",
+      "review": "",
+      "cate_id": 3,
+      "noiBat": 1,
+      "anHien": 0,
+      "giamgia": 10,
+      "luotXem": 4,
+      "hot": 1,
+
+      "hot": 1,
+      "date": "2022-02-15 20:54:36"
+    },
+    {
+      "id": 5,
+      "name": "Nike Air Max Impact 3",
+      "price": 2649000,
+      "detail": "Gây ảnh hưởng đến trận đấu ở cả hai đầu sân trong Nike Air Max Impact 3. Thử thách dành cho những người chơi tạo ra sự tách biệt với phương thẳng đứng của họ, nó có đệm Max Air đã được thử nghiệm áp lực để giúp hấp thụ lực va chạm. và sự ổn định.",
+      "image": "/images/bk-3.jfif",
+      "review": "",
+      "cate_id": 3,
+      "noiBat": 0,
+      "anHien": 0,
+      "giamgia": 20,
+      "luotXem": 100,
+      "hot": 1,
+      "date": "2022-02-15 20:47:20"
+    },
+    {
+      "id": 6,
+      "name": "Giannis Immortality \"Force Field\"",
+      "price": 2349000,
+      "detail": "Giannis là một ngôi sao băng, một phạm vi ảnh hưởng với tầm ảnh hưởng lớn. Giống như một nam châm cực mạnh, anh ta thu hút những người bảo vệ và đẩy lùi họ một cách dễ dàng đáng kinh ngạc, giống như thần Zeus xóa sổ các tiểu hành tinh bằng các tia chớp. Phiên bản \"Force Field\" của Giannis Immortality có màu sắc vũ trụ lấy cảm hứng từ các thuộc tính ở thế giới khác của Giannis.",
+      "image": "/images/bk-4.jfif",
+      "review": "",
+      "cate_id": 3,
+      "noiBat": 1,
+      "anHien": 0,
+      "giamgia": 0,
+      "luotXem": 0,
+      "hot": 1,
+      "date": "2022-02-15 20:47:20"
+    },
+    {
+      "id": 7,
+      "name": "LeBron Witness 6 EP",
+      "price": 2929000,
+      "detail": "Đối với lần lặp lại này của LeBron Witness, chúng tôi đã thay đổi Zoom Air để lấy đệm Max Air có thể nhìn thấy — yêu thích của LeBron — để giúp tiêu tán lực tác động và mang lại cảm giác nhạy bén. Lưới nhẹ, được gia cố giúp bạn luôn ở trong mọi tình huống, khỏi dây vải khai thác bàn chân trước của bạn đến các miếng đúc bên ngoài khóa gót chân của bạn.",
+      "image": "/images/bk-5.jfif",
+      "review": "",
+      "cate_id": 3,
+      "noiBat": 0,
+      "anHien": 0,
+      "giamgia": 0,
+      "luotXem": 5,
+      "hot": 1,
+      "date": "2022-02-15 20:54:38"
+    },
+    {
+      "id": 8,
+      "name": "Kyrie Infinity EP",
+      "price": 3829000,
+      "detail": "Kyrie càng làm chậm càng nhanh thì anh ta có thể tăng tốc hoặc đổi hướng nhanh hơn. Khả năng kiểm soát chuyển động của anh ta khiến các hậu vệ luôn đoán được — và anh ta kiểm soát được. Kyrie Infinity EP cung cấp đệm, phù hợp tùy chỉnh và lực kéo lên hai bên, cho phép người chơi tăng tốc và giảm tốc theo yêu cầu và tận dụng sự tách biệt mà họ tạo ra.",
+      "image": "/images/bk-6.jfif",
+      "review": "",
+      "cate_id": 3,
+      "noiBat": 0,
+      "anHien": 0,
+      "giamgia": 0,
+      "luotXem": 0,
+      "hot": 1,
+      "date": "2022-02-15 20:47:20"
+    },
+    {
+      "id": 9,
+      "name": "LeBron 19",
+      "price": 5869000,
+      "detail": "LeBron phát triển mạnh khi tiền cược cao và áp lực gia tăng. LeBron 19 khai thác năng lượng đó với một bộ đồ vừa vặn có khóa và hệ thống đệm được cập nhật. Ống tay áo bên trong vừa khít được kéo lại với nhau bằng một lớp phủ điêu khắc mà các dây buộc xuyên qua để giúp ngăn bàn chân di chuyển vào bên trong giày. Vỏ đệm xung quanh cổ áo và lưỡi gà tạo thêm sự thoải mái đồng thời giảm trọng lượng, mang lại cho người chơi cảm giác an toàn và tự tin chơi hết mình khi trận đấu đang diễn ra.",
+      "image": "/images/bk-7.jfif",
+      "review": "",
+      "cate_id": 3,
+      "noiBat": 0,
+      "anHien": 0,
+      "giamgia": 0,
+      "luotXem": 64,
+      "hot": 1,
+      "date": "2022-02-15 20:54:47"
+    },
+    {
+      "id": 10,
+      "name": "KD14",
+      "price": 4699000,
+      "detail": "Kevin Durant ẩn nấp bên cánh, đợi thời điểm thích hợp để tấn công trước khi băng qua hàng rào chắn. KD14 được thiết kế để giúp những người chơi đa năng, không ngừng vận động như KD cảm thấy tươi mới trong suốt trận đấu. Các chuyển động bên trong giày. Đệm Zoom Air toàn chiều dài cộng với bọt Cushlon giúp cung cấp năng lượng trở lại để mang lại hiệu suất lâu dài.",
+      "image": "/images/bk-8.jfif",
+      "review": "",
+      "cate_id": 3,
+      "noiBat": 0,
+      "anHien": 0,
+      "giamgia": 26,
+      "luotXem": 15,
+      "hot": 1,
+      "date": "2022-02-16 14:13:09"
+    },
+    {
+      "id": 11,
+      "name": "The Nike Premier 3 FG",
+      "price": 3219000,
+      "detail": "Nike Premier 3 quay trở lại những điều cơ bản với hình bóng vượt thời gian được bọc trong da kangaroo dẻo dai — giúp bạn di chuyển tự tin như một sức mạnh không thể ngăn cản trên sân cỏ.",
+      "image": "/images/fb-1.jfif",
+      "review": "",
+      "cate_id": 4,
+      "noiBat": 1,
+      "anHien": 0,
+      "giamgia": 0,
+      "luotXem": 22,
+      "hot": 1,
+      "date": "2022-02-15 20:54:44"
+    },
+    {
+      "id": 13,
+      "name": "The Nike Premier 3 FG",
+      "price": 3219000,
+      "detail": "Nike Premier 3 quay trở lại những điều cơ bản với hình bóng vượt thời gian được bọc trong da kangaroo dẻo dai — giúp bạn di chuyển tự tin như một sức mạnh không thể ngăn cản trên sân cỏ.",
+      "image": "/images/fb-1.jfif",
+      "review": "",
+      "cate_id": 4,
+      "noiBat": 0,
+      "anHien": 0,
+      "giamgia": 0,
+      "luotXem": 0,
+      "hot": 1,
+      "date": "2022-02-15 20:47:20"
+    },
+    {
+      "id": 14,
+      "name": "Nike Phantom GT2 Elite FG",
+      "price": 7909000,
+      "detail": "Tạo sóng xung kích trên sân với thiết kế cập nhật trông nhanh như khi bạn chơi. Flyknit phía trên có hoa văn kết cấu được thiết kế để giúp bạn đặt các bức ảnh của mình với độ chính xác chính xác.",
+      "image": "/images/fb-2.jfif",
+      "review": "",
+      "cate_id": 4,
+      "noiBat": 1,
+      "anHien": 0,
+      "giamgia": 0,
+      "luotXem": 77,
+      "hot": 1,
+      "date": "2022-02-15 20:54:41"
+    },
+    {
+      "id": 15,
+      "name": "Nike Mercurial Vapor 14",
+      "price": 1509000,
+      "detail": "Nike Mercurial Vapor 14 Club TF có lưới co giãn trong suốt phần trên để tạo sự thoải mái nhẹ, trong khi đế cao su giúp siêu tích điện lực kéo trên sân cỏ.",
+      "image": "/images/fb-3.jfif",
+      "review": "",
+      "cate_id": 4,
+      "noiBat": 0,
+      "anHien": 0,
+      "giamgia": 0,
+      "luotXem": 6,
+      "hot": 1,
+      "date": "2022-02-15 20:54:39"
+    },
+    {
+      "id": 16,
+      "name": "Nike Phantom GT2 Club Dynamic Fit MG",
+      "price": 1889000,
+      "detail": "Xây dựng dựa trên Phantom GT, Nike Phantom GT2 Club Dynamic Fit MG có thiết kế cập nhật và kiểu dáng được thiết kế để giúp bạn thực hiện các cú đánh của mình với độ chính xác chính xác. độ chính xác.",
+      "image": "/images/fb-5.jfif",
+      "review": "",
+      "cate_id": 4,
+      "noiBat": 1,
+      "anHien": 0,
+      "giamgia": 0,
+      "luotXem": 0,
+      "hot": 1,
+      "date": "2022-02-15 20:47:20"
+    },
+    {
+      "id": 17,
+      "name": "Nike Mercurial Vapor 14 Academy IC",
+      "price": 2349000,
+      "detail": "The Nike Mercurial Vapor 14 Academy IC is a grippy design with multi-directional traction that helps set you up for super-charged speed.",
+      "image": "/images/fb-4.jfif",
+      "review": "",
+      "cate_id": 4,
+      "noiBat": 0,
+      "anHien": 0,
+      "giamgia": 0,
+      "luotXem": 0,
+      "hot": 1,
+      "date": "2022-02-15 20:47:20"
+    },
+    {
+      "id": 18,
+      "name": "Nike Mercurial Superfly 8 Club MG",
+      "price": 1889000,
+      "detail": "\r\nNike Mercurial Superfly 8 Club MG thiết lập cho bạn tốc độ với sự vừa vặn liền mạch. Kết cấu màu sắc rực rỡ ở phía trên giúp bạn kiểm soát chính xác, trong khi các đinh tán ở phía dưới cung cấp lực kéo để cắt nhanh và dừng đột ngột.",
+      "image": "/images/fb-6.jfif",
+      "review": "",
+      "cate_id": 4,
+      "noiBat": 1,
+      "anHien": 0,
+      "giamgia": 0,
+      "luotXem": 0,
+      "hot": 1,
+      "date": "2022-02-15 20:47:20"
+    },
+    {
+      "id": 19,
+      "name": "Nike Air Max 90 G NRG",
+      "price": 4409000,
+      "detail": "Chúng có thể dễ dàng hòa trộn trong môi trường hoang dã, nhưng những đốm da báo trên Air Max 90 G NRG sẽ rất nổi bật. da.",
+      "image": "/images/golf-1.jfif",
+      "review": "",
+      "cate_id": 6,
+      "noiBat": 0,
+      "anHien": 0,
+      "giamgia": 0,
+      "luotXem": 0,
+      "hot": 1,
+      "date": "2022-02-15 20:47:20"
+    },
+    {
+      "id": 20,
+      "name": "Jordan Zoom Separate PF",
+      "price": 3239000,
+      "detail": "Cú sút lùi của Luka là nàng thơ cho Jordan Zoom Separate PF, một đôi giày đế thấp nhẹ được thiết kế để giúp bạn kiểm soát trên sân. nghiêng người trong khi xoay người và thay đổi hướng. Bộ phận Zoom Air cung cấp đệm đáp ứng khi bạn nhắm vào rổ. Phiên bản PF này sử dụng đế ngoài siêu bền, lý tưởng cho các sân ngoài trời.",
+      "image": "/images/jd-1.jfif",
+      "review": "",
+      "cate_id": 1,
+      "noiBat": 1,
+      "anHien": 0,
+      "giamgia": 0,
+      "luotXem": 3,
+      "hot": 1,
+      "date": "2022-02-15 20:54:34"
+    },
+    {
+      "id": 21,
+      "name": "Nike Air Force 1 '07",
+      "price": 2649000,
+      "detail": "Sự rạng rỡ tồn tại trong Nike Air Force 1 '07, quả bóng b-ball OG mang đến một sự thay đổi mới mẻ về những gì bạn biết rõ nhất: các lớp phủ được khâu đẹp, kết thúc sạch sẽ và lượng đèn flash hoàn hảo để khiến bạn tỏa sáng.",
+      "image": "/images/ls-1.jfif",
+      "review": "",
+      "cate_id": 0,
+      "noiBat": 0,
+      "anHien": 0,
+      "giamgia": 0,
+      "luotXem": 100,
+      "hot": 1,
+      "date": "2022-02-16 20:54:31"
+    },
+    {
+      "id": 22,
+      "name": "Nike Air Zoom Alphafly NEXT% Flyknit",
+      "price": 8369000,
+      "detail": "Chuẩn bị cho những điều tốt nhất tiếp theo của bạn với Nike Air Zoom Alphafly NEXT% Flyknit. Nó mang lại cho bạn năng lượng hoàn trả lớn nhất trong tất cả các loại giày đua của chúng tôi với cảm giác đẩy cho đến vạch đích. Thiết kế nhẹ, thoáng khí và được hỗ trợ bởi dữ liệu để giúp bạn luôn thoải mái.",
+      "image": "/images/rn-1.jfif",
+      "review": "",
+      "cate_id": 2,
+      "noiBat": 1,
+      "anHien": 0,
+      "giamgia": 0,
+      "luotXem": 0,
+      "hot": 1,
+      "date": "2022-02-15 20:47:20"
+    },
+    {
+      "id": 23,
+      "name": "Nike SB Ishod Wair",
+      "price": 2929000,
+      "detail": "Khi đến lúc chế tạo chiếc giày đặc trưng của mình, Ishod Wair đã dốc toàn lực từ đầu đến cuối. tất cả độ bền bạn cần để trượt băng khó — nghiêm túc, hãy kiểm tra đế lót mới đó — Nike SB Ishod Wair đi bộ giữa phong cách nguyên bản và cải tiến giày trượt hiện đại.",
+      "image": "/images/sb-1.jfif",
+      "review": "",
+      "cate_id": 7,
+      "noiBat": 0,
+      "anHien": 0,
+      "giamgia": 50,
+      "luotXem": 0,
+      "hot": 1,
+      "date": "2022-02-28 20:47:20"
+    },
+    {
+      "id": 24,
+      "name": "Nike Air Monarch IV",
+      "price": 1909000,
+      "detail": "Nike Air Monarch IV giúp bạn tập luyện với lớp da bền ở trên để hỗ trợ. Bọt nhẹ kết hợp với đệm Nike Air để tạo sự thoải mái trong mỗi sải chân.",
+      "image": "/images/tn-gym-1.jfif",
+      "review": "",
+      "cate_id": 5,
+      "noiBat": 1,
+      "anHien": 0,
+      "giamgia": 20,
+      "luotXem": 13,
+      "hot": 1,
+      "date": "2022-02-15 20:47:20"
+    }
+  ],
+  "categories": [
+    {
+      "id": 0,
+      "name": "lifestyle",
+      "hot": 1
+    },
+    {
+      "id": 1,
+      "name": "jordan",
+      "hot": 1
+    },
+    {
+      "id": 2,
+      "name": "running",
+      "hot": 1
+    },
+    {
+      "id": 3,
+      "name": "basketball",
+      "hot": 1
+    },
+    {
+      "id": 4,
+      "name": "football",
+      "hot": 1
+    },
+    {
+      "id": 5,
+      "name": "tranning & gym",
+      "hot": 1
+    },
+    {
+      "id": 6,
+      "name": "golf",
+      "hot": 1
+    },
+    {
+      "id": 7,
+      "name": "skateboarding",
+      "hot": 1
+    }
+  ],
+  "accounts": [
+    {
+      "id": 1,
+      "name": "chung chí lâm",
+      "email": "chungchilam12@gmail.com",
+      "password": "lam",
+      "status": 0,
+      "name_show": "Nho Tây",
+      "spam": 1,
+      "address": "23/2 gia phú p13 q5 tp.hcm",
+      "phone": "0703148904",
+      "rank": 1
+    },
+    {
+      "id": 2,
+      "name": "Lê Tùng Lâm",
+      "email": "letunglam@gmail.com",
+      "password": "lam1",
+      "status": 0,
+      "name_show": "Tịnh thất bồng con",
+      "spam": 1,
+      "address": "26/2 gò công p13 q5 tp.hcm",
+      "phone": "0705343564",
+      "rank": 0
+    },
+    {
+      "name": "chung chí lâm",
+      "email": "chungchilam12@gmail.com.vn",
+      "password": "lam3",
+      "status": 0,
+      "name_show": "chung chí lâm",
+      "spam": "1",
+      "address": "23 gia phú",
+      "phone": "0703148904",
+      "rank": "0",
+      "id": 3
+    },
+    {
+      "name": "chung chí lâm",
+      "email": "chungchilam12@gmail.com.vn",
+      "password": "lam",
+      "status": 0,
+      "name_show": "chung chí lâm",
+      "spam": 1,
+      "address": "23 gia phú",
+      "phone": "0703148904",
+      "rank": 1,
+      "id": 4
+    }
+  ],
+  "orders": [
+    {
+      "account_name": "chung chí lâm",
+      "account_address": "23/2 gia phú p13 q5 tp.hcm",
+      "status": 1,
+      "account_email": "chungchilam12@gmail.com",
+      "account_phone": "0703148904",
+
+      "date": "17/1/2022",
+      "id": 1
+    },
+    {
+      "account_name": "cùdu",
+      "account_address": "fsfsdio",
+      "status": 3,
+      "account_email": "21312@GMAIL.COM",
+
+      "date": "17/1/2022",
+      "account_phone": "3219031209317",
+      "id": 2
+    },
+    {
+      "account_name": "3213213",
+      "account_address": "23 gia phú",
+      "status": 0,
+      "account_email": "chungchilam12@gmail.com.vn",
+      "account_phone": "0703148904",
+
+      "date": "17/1/2022",
+      "id": 3
+    }
+  ],
+  "order_details": [
+    {
+      "oder_id": 1,
+      "product_id": 1,
+      "quantity": 2,
+      "unit_price": 13000
+    }
+  ]
+}

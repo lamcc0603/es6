@@ -1,0 +1,22 @@
+.container {
+  display: flex;
+  width: 1400px;
+  margin-bottom: 2rem;
+}
+
+.breadcumb {
+  width: 100%;
+  display: flex;
+  gap: 10px;
+  color: #000;
+  line-height: 20px;
+  margin-bottom: 30px;
+}
+
+.breadcumb_sup {
+  color: #777777;
+}
+
+.breadcumb_link {
+  text-transform: uppercase;
+}

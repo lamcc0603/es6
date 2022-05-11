@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head> </head>
+  <body>
+    <div class="sidebar"></div>
+    <section class="home-section">
+      <nav>
+        <div class="sidebar-button">
+          <i class="bx bx-menu sidebarBtn"></i>
+          <span class="dashboard">Dashboard</span>
+        </div>
+        <div class="search-box">
+          <input type="text" placeholder="Search..." />
+          <i class="bx bx-search"></i>
+        </div>
+        <div class="profile-details">
+          <!--<img src="images/profile.jpg" alt="">-->
+          <span class="admin_name">Prem Shahi</span>
+          <i class="bx bx-chevron-down"></i>
+        </div>
+      </nav>
+
+      <div class="home-content">
+        <div class="sales-boxes">
+          <div class="recent-sales box">
+            <div class="title">
+              Accounts
+              <button class="btn_add">
+                <a href="./add_acc.html">Thêm mới</a>
+              </button>
+            </div>
+            <div class="sales-details">
+              <table class="show_product">
+                <thead>
+                  <tr>
+                    <td class="show_cate--id">ID</td>
+                    <td class="show_cate--name">Name</td>
+                    <td class="show_account--address">Email</td>
+                    <td class="show_cate--id">Status</td>
+                    <td class="show_account--name_show">Name Show</td>
+                    <td class="show_account--spam">Spam</td>
+                    <td class="show_account--address">Address</td>
+                    <td class="show_account--phone">Phone</td>
+                    <td class="show_account--rank">Rank</td>
+                    <td class="show_btn">Chức năng</td>
+                  </tr>
+                </thead>
+                <tbody class="show_cate"></tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.26.1/axios.min.js"
+      integrity="sha512-bPh3uwgU5qEMipS/VOmRqynnMXGGSRv+72H/N260MQeXZIK4PG48401Bsby9Nq5P5fz7hy5UGNmC/W1Z51h2GQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script src="../baseAPI.js"></script>
+
+    <script src="./app/accounts/accountService.js"></script>
+
+    <script src="./app/renderMenu.js"></script>
+    <script>
+      let accountService = new account();
+      function handleDeleteAccount(id) {
+        accountService
+          .deleteAccount(id)
+          .then((newAccount) => {
+            console.log("Success:", newAccount);
+            const deleteItem = document.querySelector(".account_item-" + id);
+            console.log(deleteItem);
+            if (deleteItem) {
+              deleteItem.remove();
+            }
+          })
+          .catch((error) => {
+            console.error("Error:", error);
+          });
+      }
+      function showAccounts() {
+        accountService
+          .getAll()
+          .then((data) => {
+            //     hiện ra UI
+            let body = "";
+            for (let [key, account] of Object.entries(data.data)) {
+              //     hiện ra UI
+              if (data.data[key] != null) {
+                let str = `
+        <tr class="account_item-${key}">
+        <td class="show_cate--id">${account.id}</td>
+        <td class="show_cate--name ">${account.name}</td>
+        <td class="show_account--address">${account.email}</td>
+        <td class="show_cate--id">${account.status}</td>
+        <td class="show_account--name_show">${account.name_show}</td>
+        <td class="show_account--spam">${account.spam}</td>
+        <td class="show_account--address">${account.address}</td>
+        <td class="show_account--phone">${account.phone}</td>
+        <td class="show_account--rank">${account.rank}</td>
+        <td class="show_btn">
+        <button class="btn_edit"><a href="./edit_acc.html?id=${key}">Sửa</a></button>
+        <button class="btn_delete" onclick="handleDeleteAccount('${key}')">Xóa</button></td>
+      </tr>
+                  `;
+
+                body += str;
+              }
+            }
+            document.querySelector(".show_cate").innerHTML = body;
+          })
+          .catch((err) => {
+            console.log(err);
+          });
+      }
+
+      showAccounts();
+    </script>
+  </body>
+</html>

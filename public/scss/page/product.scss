@@ -1,0 +1,130 @@
+.product {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 30px;
+  &_container {
+    display: flex;
+    justify-content: center;
+  }
+  &_wrapper {
+    display: flex;
+    flex-direction: column;
+  }
+
+  &_img {
+    overflow: hidden;
+  }
+
+  &_info {
+    display: flex;
+    flex-direction: column;
+    width: 75%;
+    & > div {
+      padding: 10px;
+      border-bottom: 1px dotted #dfe0e1;
+    }
+    &--title h1 {
+      font-size: 20px;
+      font-weight: $--fw7;
+      color: #272727;
+    }
+
+    &--categories {
+      color: #a3a5a7;
+      line-height: 20px;
+    }
+    &--price {
+      display: flex;
+      align-items: center;
+      gap: 20px;
+    }
+    &--count {
+      display: flex;
+      text-align: center;
+      line-height: 32px;
+      font-weight: 600;
+      & span {
+        width: 32px;
+        height: 32px;
+        background: #f3f4f4;
+        cursor: pointer;
+        &:first-child {
+          border-top-left-radius: 8px;
+          border-bottom-left-radius: 8px;
+        }
+        &:last-child {
+          border-top-right-radius: 8px;
+          border-bottom-right-radius: 8px;
+        }
+      }
+      & input {
+        height: 32px;
+        width: 70px;
+        background: #fff;
+        border: 1px solid #f3f4f4;
+        text-align: center;
+      }
+    }
+    &--btn {
+      display: flex;
+      gap: 10px;
+      & button {
+        font-weight: 700;
+        line-height: 22px;
+        padding: 17px 70px;
+        border-radius: 8px;
+        border: none;
+        color: white;
+        text-transform: uppercase;
+        transition: color 0.45s cubic-bezier(0.785, 0.135, 0.15, 0.86),
+          border 0.45s cubic-bezier(0.785, 0.135, 0.15, 0.86),
+          all 0.3s ease-in-out;
+        &:first-child {
+          border: #000 1px solid;
+          background: #000;
+        }
+        &:last-child {
+          background: #ff0000;
+          border: #ff0000 1px solid;
+        }
+        &:hover {
+          background: rgb(255, 255, 255);
+          color: #252a2b;
+        }
+      }
+    }
+
+    &--detail {
+      text-align: justify;
+    }
+  }
+}
+
+.discount_price {
+  background: #f2f5fa;
+  color: #f94c43;
+  font-weight: 600;
+  line-height: 20px;
+  padding: 5px;
+}
+
+.main_price span:first-child {
+  font-weight: 700;
+  line-height: 25px;
+  font-size: 18px;
+  color: #272727;
+}
+
+.main_price span:last-child {
+  font-weight: 500;
+  color: #777a7b;
+}
+
+.br24 {
+  border-radius: 24px;
+}
+.breadcumb {
+  &_sup {
+    text-transform: capitalize;
+  }
+}

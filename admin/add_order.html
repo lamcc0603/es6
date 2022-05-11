@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head> </head>
+  <body>
+    <div class="sidebar">
+      <div class="logo-details">
+        <i class="bx bxl-c-plus-plus"></i>
+        <span class="logo_name">Nike</span>
+      </div>
+      <ul class="nav-links">
+        <li>
+          <a href="#" class="active">
+            <i class="bx bx-grid-alt"></i>
+            <span class="links_name">Trang chủ</span>
+          </a>
+        </li>
+
+        <li class="log_out">
+          <a href="#">
+            <i class="bx bx-log-out"></i>
+            <span class="links_name">Log out</span>
+          </a>
+        </li>
+      </ul>
+    </div>
+    <section class="home-section">
+      <nav>
+        <div class="sidebar-button">
+          <i class="bx bx-menu sidebarBtn"></i>
+          <span class="dashboard">Dashboard</span>
+        </div>
+        <div class="search-box">
+          <input type="text" placeholder="Search..." />
+          <i class="bx bx-search"></i>
+        </div>
+        <div class="profile-details">
+          <!--<img src="images/profile.jpg" alt="">-->
+          <span class="admin_name">Prem Shahi</span>
+          <i class="bx bx-chevron-down"></i>
+        </div>
+      </nav>
+
+      <div class="home-content">
+        <div class="sales-boxes">
+          <div class="recent-sales box">
+            <div class="title">
+              Thêm Order
+              <button class="btn_add">
+                <a href="./orders.html">Trở về</a>
+              </button>
+            </div>
+            <form method="post" enctype="multipart/form-data">
+              <div class="form_control">
+                <label for="">Account Name</label>
+                <input
+                  type="text"
+                  name="account_name"
+                  placeholder="Nhập tên khách hàng"
+                  id="account_name"
+                />
+              </div>
+              <div class="form_control">
+                <label for="">Account Address</label>
+                <input
+                  type="text"
+                  name="account_address"
+                  placeholder="Nhập địa chỉ"
+                  id="account_address"
+                />
+              </div>
+              <div class="form_control">
+                <label for="">Account Email </label>
+                <input
+                  type="email"
+                  name="account_email"
+                  placeholder="Nhập email"
+                  id="account_email"
+                />
+              </div>
+              <div class="form_control">
+                <label for="">Account Phone </label>
+                <input
+                  type="number"
+                  name="account_phone"
+                  placeholder="Nhập số điện thoại"
+                  id="account_phone"
+                />
+              </div>
+            </form>
+            <div class="form_button">
+              <!-- <a href="./orders.html"> -->
+              <input type="submit" value="Thêm" class="submit_add" />
+              <!-- </a> -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.26.1/axios.min.js"
+      integrity="sha512-bPh3uwgU5qEMipS/VOmRqynnMXGGSRv+72H/N260MQeXZIK4PG48401Bsby9Nq5P5fz7hy5UGNmC/W1Z51h2GQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script src="../baseAPI.js"></script>
+
+    <script type="module" src="./app/orders/orderService.js"></script>
+
+    <script src="./app/renderMenu.js"></script>
+  </body>
+</html>

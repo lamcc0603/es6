@@ -1,0 +1,17 @@
+.categories {
+  display: flex;
+  justify-content: center;
+  &_container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    & h1 {
+      width: 100%;
+      font-size: 24px;
+      line-height: 29px;
+      color: #272727;
+      font-weight: 700;
+      margin-bottom: 20px;
+    }
+  }
+}

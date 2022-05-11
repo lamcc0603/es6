@@ -1,0 +1,94 @@
+.login {
+  display: flex;
+  justify-content: center;
+  &_container {
+    flex-direction: column;
+    align-items: center;
+  }
+  &_title {
+    width: 100%;
+    padding: 40px 0;
+    & h1 {
+      position: relative;
+      color: $--color27;
+      font-size: $--fs28;
+      font-weight: $--fw5;
+      line-height: 30.8px;
+      text-transform: uppercase;
+      &::before {
+        content: "";
+        width: 60px;
+        height: 2px;
+        background: #000;
+
+        position: absolute;
+        top: 115%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+      }
+    }
+
+    text-align: center;
+  }
+}
+
+.form {
+  &_control {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    & label {
+      font-weight: 700;
+      font-size: $--fs18;
+      line-height: $--lh22;
+      margin-bottom: 10px;
+    }
+
+    & input {
+      width: 400px;
+      height: 45px;
+      padding: 20px;
+      line-height: 25px;
+      border: none;
+      border: 1px solid rgb(105, 105, 105);
+      border-radius: 16px;
+      &:focus {
+        outline: none;
+      }
+    }
+  }
+  &_button {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+}
+
+.btn_login {
+  width: 250px;
+  height: 45px;
+  background: #3cd09c;
+  color: #fff;
+  border-radius: 24px;
+  border: none;
+  font-weight: 700;
+  font-size: $--fs18;
+  line-height: $--lh25;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+    rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+  &:hover {
+    background: #33b487;
+  }
+}
+
+.create_container {
+  font-size: 16px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.text_highlight {
+  font-weight: 600;
+  color: #f94c43;
+  text-decoration: underline;
+}
